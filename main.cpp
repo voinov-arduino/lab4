@@ -26,7 +26,7 @@ int main() {
     y0el = y2 - BB;
     i = 0; // начало цикла
     it = 0.0001; // шаг цикла
-    for(i,i<r;i+=it;){
+    for(i,i<90;i+=it;){
         xe1 = x0el + AA * cos(i);
         ye1 = y0el + BB * sin(i);
         if (abs(sqrt(xe1 - x0okr) + sqrt(ye1 - y0okr) - sqrt(r)) < 0.001){
